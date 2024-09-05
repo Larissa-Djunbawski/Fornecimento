@@ -1,0 +1,12 @@
+{
+  "name": "fornecimento",
+  "version": "1.0.0",
+  "description": "Utilizando tanto o router do express quanto os models separados dos controllers. Crie o CRUD das seguintes entidades:  Mercado:  - nome  - endereco (utilizar middleware para converter CEP em endereço, ou seja consumir de da API externa https://viacep.com.br)  Fornecedor:   - nome  Produto:  - nome  - quantidade  - id_mercado  - id_fornecedor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
